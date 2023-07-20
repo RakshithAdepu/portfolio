@@ -1,0 +1,288 @@
+
+
+.skillsBackgroundImage{
+  background-color: #071925;  
+    display: grid;
+    grid-template-areas:"n"
+    "skills" ;
+    grid-template-rows: 6.3rem 2fr;
+    height: auto;
+    width: 85rem;
+
+}
+
+
+.skillsCont{
+    grid-area: skills;
+    background-color: #071925; 
+    background-size: cover;
+    height: auto;
+    display: flex;
+   width:85rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+  
+}
+
+
+@keyframes rotate {
+
+  from{transform: rotate(0trans);}
+  to{transform: rotate(360deg);}
+  
+}
+.imgSize{width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+
+
+}
+
+.imgSize:hover{
+
+  transform : translateY(-20px);
+  
+}
+
+
+.nxtjs{
+  width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+}
+
+.nxtjs:hover{
+
+  transform : translateY(-20px);
+  
+}
+
+.logoCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center ;
+ 
+ width:70rem;
+}
+
+
+
+
+
+
+
+@keyframes slideInLeft  {
+
+  from{
+    transform: translateX(300px)
+  }
+  to{  transform: translateX(0)}
+  
+}
+
+.para{
+  font-family: "poppins", sans-serif;
+  color:gray;
+  animation-name: slideInLeft ;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  font-weight: 600;
+}
+
+@keyframes slideInRight  {
+
+  from{
+    transform: translateX(-300px)
+  }
+  to{  transform: translateX(0)}
+  
+}
+
+.heading{color: #fff;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  text-decoration:underline;
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  transition: transform 0.3s ease;
+  }
+
+  .heading:hover{
+
+    transform : translateX(-30px);
+    color:aqua;
+  }
+
+  .para:hover{
+
+    transform : translateX(100px);
+    color:aqua;
+  }
+
+
+
+  /* -------------------------------------- */
+
+  @media    screen and (max-width:576px) {
+
+
+    .skillsBackgroundImage{
+      background-color: #071925;  
+        display: grid;
+        grid-template-areas:"n"
+        "skills" ;
+        grid-template-rows: 6.3rem 2fr;
+        height: 200rem;
+        width: 85rem;
+    
+    }
+    
+    
+    .skillsCont{
+        grid-area: skills;
+        background-color: #071925; 
+        background-size: cover;
+        height: 170rem;
+        display: flex;
+       width:85rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+      
+    }
+    
+    
+    @keyframes rotate {
+    
+      from{transform: rotate(0trans);}
+      to{transform: rotate(360deg);}
+      
+    }
+    .imgSize{width: 12rem;
+        height:   13rem;
+        margin-top:15rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        animation-name: rotate;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: 2;
+    
+    
+    }
+    
+    .imgSize:hover{
+    
+      transform : translateY(-20px);
+      
+    }
+    
+    
+    .nxtjs{
+      width: 12rem;
+        height:   13rem;
+        margin-top:15rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        animation-name: rotate;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: 2;
+    
+    }
+    
+    .nxtjs:hover{
+    
+      transform : translateY(-20px);
+      
+    }
+    
+    .logoCont{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center ;
+     
+     width:85rem;
+    }
+    
+    
+    
+    
+    
+    
+    
+    @keyframes slideInLeft  {
+    
+      from{
+        transform: translateX(300px)
+      }
+      to{  transform: translateX(0)}
+      
+    }
+    
+    .para{
+      font-family: "poppins", sans-serif;
+      color:gray;
+      animation-name: slideInLeft ;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-iteration-count: 1;
+      font-weight: 600;
+      font-size: 4rem;
+      text-align: justify;
+      padding: 1rem;
+    }
+    
+    @keyframes slideInRight  {
+    
+      from{
+        transform: translateX(-300px)
+      }
+      to{  transform: translateX(0)}
+      
+    }
+    
+    .heading{color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      text-decoration:underline;
+      animation-name: slideInRight;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-iteration-count: 1;
+      transition: transform 0.3s ease;
+      font-size: 7rem;
+      }
+    
+      .heading:hover{
+    
+        transform : translateX(-30px);
+        color:aqua;
+      }
+    
+      .para:hover{
+    
+        transform : translateX(100px);
+        color:aqua;
+      }
+    
+    
+    
+  }

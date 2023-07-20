@@ -1,0 +1,237 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+  
+    
+  }
+  
+  .form-group {
+    margin-bottom: 1.2rem;
+    animation: slideInFromBottom 1s ease-in-out;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  input,
+  textarea {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 13rem;
+    font-size: 1rem;
+    background-color: #071925;
+  }
+  
+  button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a030;
+  }
+  
+
+  
+
+  
+
+  .mainContactCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #071925;
+    height: 40rem;
+    width: 85rem;
+  }
+
+
+  
+@keyframes slideInLeft  {
+
+    from{
+      transform: translateX(300px)
+    }
+    to{  transform: translateX(0)}
+    
+  }
+
+  h1{
+    color: #fff;
+    animation-name: slideInLeft ;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+  }
+
+
+/* ----------------------------- */
+
+@media  screen and (max-width: 567px)
+ {
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40rem;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 20px;
+    animation: slideInFromBottom 1s ease-in-out;
+ 
+    
+  }
+  
+  .form-group {
+    margin-bottom: 3rem;
+    animation: slideInFromBottom 1s ease-in-out;
+
+  }
+  
+  label {
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  input,
+  textarea {
+    padding: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60rem;
+    font-size: 1rem;
+    background-color: #071925;
+    border-radius: 20px;
+  }
+  
+  button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: background-color 0.3s;
+    height: 7rem;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a030;
+  }
+  
+
+  p{font-size: 3rem;
+  text-align: justify;
+padding: 2rem;}
+
+  
+
+  .mainContactCont{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #071925;
+    height: 200rem;
+    width: 85rem;
+  }
+
+
+  
+@keyframes slideInLeft  {
+
+    from{
+      transform: translateX(300px)
+    }
+    to{  transform: translateX(0)}
+    
+  }
+
+  h1{
+    color: #fff;
+    animation-name: slideInLeft ;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    font-size: 6rem;
+  }
+
+
+  .SocialIconCont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+     align-items: center; 
+     margin-right: 55%;
+  }
+
+  .icons{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: center; 
+     margin-bottom: 3rem;
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+border: 2px solid #0ef;
+background-color: transparent;
+color:#0ef;
+margin-left: 4rem;
+padding: 10px;
+margin-top: 3rem;
+/* font-size: 5vh;   */
+  }
+
+
+  .icons:hover{
+
+    background-color: #0ef;
+    color:#071925;
+    box-shadow: 0 0 20px #0ef;
+  }
+
+.moreAboutMeBtn{
+
+  background-color: #0ef;
+  padding: 12px 28px;
+  color: #071925;
+  height: 7rem;
+  width: 30rem;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  border-radius: 2.1rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  margin-right:45rem; 
+ 
+}
+
+.moreAboutMeBtn:hover{
+
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan,
+  0 0 100px cyan,0 0 200px cyan
+}
+
+.SpanEle{color: #0ef}
+
+
+
+}

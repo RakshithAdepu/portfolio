@@ -1,0 +1,157 @@
+.about {
+    padding: 50px 0;
+    background-color: #071925;
+    width: 85rem;
+    height: auto;
+  }
+
+  .navbar {
+    grid-area: n;
+    background-color: #071925;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 85rem;
+  }
+  
+  .container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #f8f8f8;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-text {
+    text-align: center;
+    max-width: 70rem;
+    text-align: justify; 
+    margin-bottom: 2rem;
+  }
+  
+  .about-image img {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  h3{
+    color: #f8f8f8;
+  }
+
+  
+  @keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  p{
+    color: #f8f8f8;
+    animation: slideInFromBottom 1s ease-in-out;
+  }
+
+  
+
+
+  /* --------------------------------------- */
+
+  @media screen and (max-width:576px) {
+
+    .about {
+    padding: 50px 0;
+    background-color: #071925;
+    width: 85rem;
+    height: auto;
+  }
+
+  .navbar {
+    grid-area: n;
+    background-color: #071925;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 85rem;
+  }
+  
+  .container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    color: #f8f8f8;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-text {
+    text-align: center;
+    max-width: 70rem;
+    text-align: justify; 
+    margin-bottom: 2rem;
+    font-size: 2.7rem;
+  }
+  
+  .about-image img {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  h3{
+    color: #f8f8f8;
+  }
+
+  
+  @keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  p{
+    color: #f8f8f8;
+    animation: slideInFromBottom 1s ease-in-out;
+  }
+
+  
+    
+  }
