@@ -50,28 +50,7 @@ const About = () => {
                 allow me to grow both personally and professionally.
               </p>
               <p>
-                I successfully completed my secondary education at Suryodhya
-                High School in 2010, achieving a commendable score of 73%.
-                Subsequently, I pursued an M.P.C. program in intermediate
-                education, which I completed in 2013 with a notable score of
-                80%. In 2017, I graduated with a bachelor's degree in Computer
-                Science, further enhancing my academic foundation. To kickstart
-                my professional journey, I joined Wipro as a software developer,
-                where I had the privilege of working with Google as my esteemed
-                client. During my tenure, I was primarily involved in the
-                development and management of Android applications, gaining
-                valuable expertise in this domain. Following my experience at
-                Wipro, I transitioned to Tech Mahindra, assuming the role of a
-                software developer assigned to Verizon as my prominent client.
-                In this capacity, I focused on frontend development for
-                websites, effectively contributing to the enhancement of user
-                interfaces and user experiences. Currently, I am employed as a
-                software developer at Fineant Consultant Services, a reputable
-                organization that undertakes projects such as Myclicker and
-                Easyprompt. In my current role, I am actively involved in the
-                development and implementation of innovative software solutions
-                for our clients, ensuring optimal performance and user
-                satisfaction.
+               I completed my secondary education at Suryodhya High School in 2011 with a score of 73%. Following this, I pursued an M.P.C. program in intermediate education, achieving an 80% score in 2013. In 2017, I graduated with a bachelor's degree in Computer Science. My professional journey began at Wipro, where I worked with Google on Android applications. Transitioning to Tech Mahindra, I served Verizon, focusing on frontend development for websites. Currently, I am a Senior Software Developer at Fineant Consultant Services, contributing to projects like Myclickerr and Easyprompt, ensuring innovative software solutions for optimal user satisfaction.
               </p>
             </div>
             <div className="about-image">
