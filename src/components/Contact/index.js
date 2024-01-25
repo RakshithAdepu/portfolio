@@ -109,7 +109,7 @@ const Contact = () => {
             </a>
             <a href="https://www.instagram.com/" target={"_blank"}><BsInstagram className="icons" /></a>
            
-           <a href="https://wa.me/9618229951?text=message" target={"_blank"
+           <a href="https://wa.me/919618229951?text=message" target={"_blank"
           }> <BsWhatsapp className="icons" /></a>
 
             <a
