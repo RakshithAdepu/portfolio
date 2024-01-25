@@ -52,9 +52,9 @@ const Portfolio = () => {
             And I'm a <span ref={el} className="SpanEle"></span>{" "}
           </h3>
           <p className="p">
-            I'm a web Designer with extensive experience for over 3 years.
+            I bring substantial experience to the field of web development, having worked proficiently for a significant number of years.
             <br />
-            expertise is to create and web design, Frontend , and
+            expertise is to create and web design and full-stack development and
             <br /> many more...
           </p>
           <div className="SocialIconCont">
@@ -63,7 +63,7 @@ const Portfolio = () => {
             </a>
             <a href="https://www.instagram.com/rakshith_adepu/" target={"_blank"}><BsInstagram className="icons" /></a>
            
-           <a href="https://wa.me/9618229951?text=message" target={"_blank"
+           <a href="https://wa.me/919618229951?text=message" target={"_blank"
           }> <BsWhatsapp className="icons" /></a>
 
             <a
