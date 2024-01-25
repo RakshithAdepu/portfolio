@@ -52,9 +52,9 @@ const Portfolio = () => {
             And I'm a <span ref={el} className="SpanEle"></span>{" "}
           </h3>
           <p className="p">
-            I bring substantial experience to the field of web development, having worked proficiently for a significant number of years.
+             I am a seasoned web developer with substantial experience spanning several years.
             <br />
-            expertise is to create and web design and full-stack development and
+             Expertise is to create and web design and full-stack development and
             <br /> many more...
           </p>
           <div className="SocialIconCont">
