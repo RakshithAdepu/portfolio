@@ -38,12 +38,7 @@ const About = () => {
             <div className="about-text">
               <h3>Hi, I'm Rakshith Adepu</h3>
               <p>
-                Welcome to my portfolio! I am a professional web designer with a
-                passion for frontend development. I enjoy working with the
-                frontend part of the websites. With 3 years of experience in the
-                industry, I have worked on various projects and gained expertise
-                in HTML, CSS, Javascript, React, Next JS, Bootstrap, GitHub,
-                Python, SQL, Zira and Bigbucket.
+                Hello and welcome to my portfolio! I'm a dedicated web designer passionate about the entire spectrum of development, including frontend, backend, and full-stack projects. With years of experience, I've honed my skills in HTML, CSS, Bootstrap, JavaScript, React JS, Next JS, Redux, Node JS, Express JS, Python, SQL, MongoDB, Jira, GitHub, and Bitbucket. I specialize in crafting responsive designs for optimal user experiences. Excited to bring my expertise to your projects!
               </p>
               <p>
                 I believe in the power of embrace a growth mindset and believe
