@@ -52,10 +52,11 @@ const Portfolio = () => {
             And I'm a <span ref={el} className="SpanEle"></span>{" "}
           </h3>
           <p className="p">
-             I am a seasoned web developer with substantial experience spanning several years.
+             I am a full-stack and MERN stack developer.
             <br />
              Expertise is to create and web design and full-stack development and
-            <br /> many more...
+            <br />
+    many more...
           </p>
           <div className="SocialIconCont">
             <a href="https://www.facebook.com/adepu.rakshit" target={"_blank"}>
