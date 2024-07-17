@@ -26,13 +26,31 @@ const Contact = () => {
     setMessage(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // You can add your logic here to handle form submission
-    // For example, you can send the form data to a backend API
+    try {
+      const response = await fetch("https://formspree.io/f/meqwbwlq", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, phoneNumber, message }),
+      });
 
-    // Clear form fields after submission
+      if (response.ok) {
+        alert('Message sent successfully!');
+        setName('');
+        setEmail('');
+        setPhoneNumber('');
+        setMessage('');
+      } else {
+        alert('Failed to send message.');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert('Failed to send message. Please try again later.');
+    }
     setName('');
     setEmail('');
     setPhoneNumber('');

@@ -6,8 +6,8 @@
     grid-template-areas:"n"
     "skills" ;
     grid-template-rows: 6.3rem 2fr;
-    height: auto;
-    width: 85rem;
+    height: 100vh;
+    width: auto;
 
 }
 
